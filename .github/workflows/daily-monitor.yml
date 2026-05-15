@@ -1,0 +1,33 @@
+name: Daily Monitor Run
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run monitor
+        run: python3 katchanovski_monitor_v6.py
+
+      - name: Commit output files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f *.jsonl *.json *.md 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: daily monitor run $(date -u +'%Y-%m-%d')"
+          git push
