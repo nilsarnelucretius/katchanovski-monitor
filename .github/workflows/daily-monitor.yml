@@ -8,6 +8,7 @@ on:
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repo
@@ -19,9 +20,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 lxml
 
       - name: Run monitor
+        continue-on-error: true
         run: python3 katchanovski_monitor_v6.py
 
       - name: Commit output files
