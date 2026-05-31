@@ -1306,7 +1306,7 @@ def run_cs_appearance_module():
         for it in items:
             it.update({"type": "news", "network": "B_appearances", "query": term})
             cs_news.append(it)
-        time.sleep(1.2)
+        time.sleep(2.0)
 
     all_appearances = detect_cs_appearances(cs_news)
     new_appearances = [a for a in all_appearances if a.get("url") not in seen_urls]
@@ -1627,7 +1627,7 @@ def run_overlap_module():
         for it in items:
             it.update({"type": "news", "network": "overlap", "query": term})
             ov_news.append(it)
-        time.sleep(1.2)
+        time.sleep(2.0)
 
     all_overlaps = detect_overlap(ov_news)
     new_overlaps = [o for o in all_overlaps if o.get("url") not in seen_urls]
@@ -1879,7 +1879,7 @@ def run_appearance_module():
         for it in items:
             it.update({"type": "news", "network": "appearances", "query": term})
             ap_news.append(it)
-        time.sleep(1.2)
+        time.sleep(2.0)
 
     # Detect appearances from results
     all_appearances = detect_appearances(ap_news)
@@ -2074,7 +2074,7 @@ def check_url(key, cfg, hashes, network):
         result["status"] = "no_requests"
         return result
     try:
-        r = requests.get(cfg["url"], timeout=15,
+        r = requests.get(cfg["url"], timeout=8,
                          headers={"User-Agent": "Mozilla/5.0 (academic research monitor)"})
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
@@ -2103,7 +2103,7 @@ def news_search(query, max_results=5):
     try:
         url = "https://news.google.com/rss/search"
         params = {"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"}
-        r = requests.get(url, params=params, timeout=15,
+        r = requests.get(url, params=params, timeout=5,
                          headers={"User-Agent": "Mozilla/5.0 (academic research monitor)"})
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "xml")
@@ -2123,6 +2123,10 @@ def news_search(query, max_results=5):
                     "hp_keywords": hp_match,
                     "query": query,
                 })
+    except requests.exceptions.Timeout:
+        # Google News is rate-limiting this runner IP - skip gracefully
+        results.append({"type": "search_skipped", "query": query, 
+                        "error": "timeout - Google News rate limiting runner IP"})
     except Exception as e:
         results.append({"type": "search_error", "query": query, "error": str(e)[:80]})
     return results
@@ -2243,6 +2247,7 @@ def run_monitor():
     hashes = load_hashes()
     all_results = []
     all_url_results = []
+    search_skip_count = 0  # Track rate-limited queries
 
     # -- Network A: URLs ----------------------------------------------------
     print("\n-- Network A: pro-book amplification --")
@@ -2264,7 +2269,7 @@ def run_monitor():
         for it in items:
             it.update({"type": "news", "network": "A", "term": term})
             a_news.append(it)
-        time.sleep(1.2)   # polite rate limiting
+        time.sleep(2.0)   # polite rate limiting (increased to reduce rate-limit risk)
     all_results.extend(a_urls + a_news)
 
     # -- Network B: URLs ----------------------------------------------------
@@ -2287,7 +2292,7 @@ def run_monitor():
         for it in items:
             it.update({"type": "news", "network": "B", "term": term})
             b_news.append(it)
-        time.sleep(1.2)
+        time.sleep(2.0)
     all_results.extend(b_urls + b_news)
 
     # -- New-node detection (NEW v2) ----------------------------------------
@@ -2298,7 +2303,7 @@ def run_monitor():
         for it in items:
             it.update({"type": "news", "network": "new_node_scan", "term": term})
             nn_news.append(it)
-        time.sleep(1.2)
+        time.sleep(2.0)
 
     new_nodes_found = detect_new_nodes(nn_news)
     if new_nodes_found:
