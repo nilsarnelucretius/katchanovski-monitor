@@ -414,29 +414,27 @@ NETWORK_B_AMPLIFIERS = {
 }
 
 NETWORK_B_URLS = {
-    "umland_petition": {
-        "url": "https://www.pravda.com.ua/eng/articles/2026/04/28/8032087/",
-        "pattern": r'(\d+)\s*(scholar|signator)',
-        "baseline_value": 107,
-        "baseline_label": "107 signatories (April 28, 2026)",
-        "description": "Umland petition signatories",
-        "metric_key": "petition_signatories",
+    # NOTE: Ukrainska Pravda (umland_petition) is Cloudflare-blocked - removed.
+    #       Petition signatory count is now tracked via NETWORK_B_SEARCHES news monitoring.
+    # NOTE: Altmetric API (altmetric_book) now requires paid access - removed.
+    #       Replaced with Semantic Scholar (free, no auth required).
+    # NOTE: Bluesky search API (bluesky_check) is blocked on GitHub Actions IPs - removed.
+    #       Replaced with Aslund's Bluesky follower count via profile endpoint (working).
+    "semantic_scholar_citations": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/978-3-031-98724-3?fields=citationCount",
+        "pattern": r'"citationCount"\s*:\s*(\d+)',
+        "baseline_value": 1,
+        "baseline_label": "1 citation (May 2026 - first academic citation tracked)",
+        "description": "Academic citations (Semantic Scholar)",
+        "metric_key": "semantic_scholar_citations",
     },
-    "altmetric_book": {
-        "url": "https://link.altmetric.com/details/182006045",
-        "pattern": r'(\d[\d,]+)\s*[Xx]\s*posts?',
-        "baseline_value": 3174,
-        "baseline_label": "3,174 X posts (April 1, 2026)",
-        "description": "Altmetric / X post count for book",
-        "metric_key": "altmetric_x_posts",
-    },
-    "bluesky_check": {
-        "url": "https://bsky.app/search?q=Katchanovski",
-        "pattern": r'(\d+)\s*results?',
-        "baseline_value": 5,
-        "baseline_label": "5 results (April 1, 2026) - platform asymmetry indicator",
-        "description": "Bluesky search results for Katchanovski",
-        "metric_key": "bluesky_results",
+    "aslund_bluesky_followers": {
+        "url": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=andersaslund.bsky.social",
+        "pattern": r'"followersCount"\s*:\s*(\d+)',
+        "baseline_value": 32000,
+        "baseline_label": "32k followers (April 1, 2026) - B-network non-X reach proxy",
+        "description": "Aslund Bluesky followers (B-network non-X reach)",
+        "metric_key": "aslund_bluesky_followers",
     },
 }
 
@@ -2075,11 +2073,16 @@ def check_url(key, cfg, hashes, network):
         return result
     try:
         r = requests.get(cfg["url"], timeout=8,
-                         headers={"User-Agent": "Mozilla/5.0 (academic research monitor)"})
+                         headers={"User-Agent": "Mozilla/5.0 (academic research monitor)",
+                                  "Accept": "application/json, text/html"})
         r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        text = soup.get_text(" ", strip=True)
-        m = re.search(cfg["pattern"], text)
+        # Try regex on raw response text first (works for JSON APIs like Semantic Scholar, Bluesky)
+        m = re.search(cfg["pattern"], r.text)
+        if not m:
+            # Fall back to BeautifulSoup text extraction for HTML pages
+            soup = BeautifulSoup(r.text, "html.parser")
+            text = soup.get_text(" ", strip=True)
+            m = re.search(cfg["pattern"], text)
         if m:
             raw = m.group(1)
             result["match"] = raw
