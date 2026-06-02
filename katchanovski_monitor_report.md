@@ -81,3 +81,29 @@
 
 ---
 
+## [2026-06-02] Monitor Run - 19:58
+*A:6 | B:8 | HP:0 | NN:0 | A-ap:1 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 341k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34252 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +2 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 340,000 | 341,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,250 | 34,252 | +2 | +0.0% |
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ? TIER-? | ? | ? | ✓ | [Did the West block peace in Ukraine? | Ivan Katchanovski Int](https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnlRb2tUaGZlYldYaDZZaWhDSm5wblVtUGotNVZzTHByMGd0TzFWbENERFEwNzdsbFVWTkdXZ1JkWXI2WWNNZ0RrU1V3czRLVzRvX1ZsZGY4LXkyZ0dDbW1sMDlUQjJJNDBfY29KSlAwWWN3OEVRWkJLWG0tNWRTVEJuYm5TaF9LR3NFRXZFVmV4UnA4ZFNqX3hkS1gtcUk?oc=5) |
+
+---
+
