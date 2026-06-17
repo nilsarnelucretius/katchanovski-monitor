@@ -401,3 +401,36 @@
 
 ---
 
+## [2026-06-17] Monitor Run - 12:14
+*A:8 | B:11 | HP:0 | NN:1 | A-ap:3 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 353k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34582 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +29 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 352,000 | 353,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,553 | 34,582 | +29 | +0.1% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [MEP] AfD MEP: ‘Germany Is Going Bankrupt’, in interview with Alexander Sell - Brussels Signal
+  https://news.google.com/rss/articles/CBMioAFBVV95cUxQcEtMZXVfU3pVOEFrd1FQOUJJaXVWWm9ydFpQR1NWRHFob0h
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ? TIER-? | ? | ? | ✓ | [Did the West block peace in Ukraine? | Ivan Katchanovski Int](https://news.google.com/rss/articles/CBMinAFBVV95cUxOalc2UzR2Ym1NbS1MOS1NTmU2aWxQLVFlbHd6ZGJlbDJ6NnB5NW1WVS1JeEJKTmhsUVNDTEdTTVZTZXNsdkMzVmxrYlVOcWdQMmg4ZzFHSkFBRF9fd1N5Y1RuZy1hZTFuUFVaQ1BSeXZHRkpTYmlMQXhIWXlUaWphQTNzTExBZkprWHpmSnhPckNOYmg1ektJc0JXajg?oc=5) |
+| ? TIER-? | ? | ? | ✓ | [AfD MEP: ‘Germany Is Going Bankrupt’, in interview with Alex](https://news.google.com/rss/articles/CBMioAFBVV95cUxQcEtMZXVfU3pVOEFrd1FQOUJJaXVWWm9ydFpQR1NWRHFob0hVRzF0MVZTNWFGMkJkTFBPYXQtWW13WEk4SFd0aEYzZDd3SE9MbmNVYXpDa1Z6MUFQanlkQU03WDY1bjNfeFZkeWRGS2daTEg5UnFZY3phQWNma25nYjdCdktOU3hSamF4WTQwVGdSeE4xN1hkQWpnZVV0c0VF?oc=5) |
+| ? TIER-? | ? | ? | ✓ | [Is Hezbollah a Lebanese movement or an Iranian proxy? Interv](https://news.google.com/rss/articles/CBMisgFBVV95cUxPSWdhRzZlY0pUMUxwZkNidGZ3MzczSHo0V19OVnFKY2VPZFFiSzhTM3RULVRfa3IxSnZsOUFfci1NYml0UFFKWFg2Yy1lbWRVRkw4VWE0U1AxbEpqcW9qblMwaHNBWlpBVzZGNkRDRFZmMUlYY3VxTDRlV1NUbDVPNUYzZTFRb0U2MGh0WjBTWnZodDVKUmdkMXlwalBvZXNhdFFfSXd6cWdlZ0hLRkgwZmJn?oc=5) |
+
+---
+
