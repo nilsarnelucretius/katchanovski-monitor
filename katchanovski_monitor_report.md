@@ -460,3 +460,29 @@
 
 ---
 
+## [2026-06-19] Monitor Run - 12:03
+*A:6 | B:11 | HP:0 | NN:1 | A-ap:0 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 357k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34674 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +38 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 356,000 | 357,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,636 | 34,674 | +38 | +0.1% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [MEP] AfD MEP: ‘Germany Is Going Bankrupt’, in interview with Alexander Sell - Brussels Signal
+  https://news.google.com/rss/articles/CBMioAFBVV95cUxQcEtMZXVfU3pVOEFrd1FQOUJJaXVWWm9ydFpQR1NWRHFob0h
+
+---
+
