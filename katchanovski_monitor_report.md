@@ -486,3 +486,39 @@
 
 ---
 
+## [2026-06-20] Monitor Run - 10:30
+*A:6 | B:11 | HP:0 | NN:1 | A-ap:1 | B-ap:1 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 358k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34687 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +13 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 357,000 | 358,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,674 | 34,687 | +13 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ? TIER-? | ? | ? | ✓ | [Brussels Signal Interview: Spanish MEP Hermann Tertsch - Bru](https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzVnMGY5Y1QxanNreG40aFRZOTRrNzVXSnZlakVzbE1YVnZsZU5aTkdWVlhrSEtSNC1YTWlKRVNyNkQzRUFNVENLN184N3p5UnpDM1p0WldTd2plRmNXeWJIb1pWcWEyY2ZKUkFwbTY5YnE3SW1GVGMzdU1mamQtODFmSWpoNTVxbS1KWk9PMTFkdlAy?oc=5) |
+
+### 📢 New Counterspeech Events (Network B)
+| Type | Node | Tier | Confirmed | Title |
+|------|------|------|-----------|-------|
+| signatory | Correctiv | ⚡TIER-3 MID | ~ | [Correctiv’s ‘expulsion masterplan’ claims at AfD Potsda](https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ2SWw3SWhRX2I1OTVzdWVEdGZobVpLS0VYQzhaaGo3aktuaUltWjU2U1VQeExFM2pjemUyTFlVZWJFZkNLaDlHRmR3X2t3YWxDT1NrM1JVRC1lbDY0SGtwbjhXbDF1a1RvVXE2eXAtcDBnbEh4dF9WekhiQklSazRCakJNcTRjNDNYdW5GVl9mTl85ZW55Z3dwVg?oc=5) |
+
+---
+
