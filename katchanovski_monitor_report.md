@@ -600,3 +600,34 @@
 
 ---
 
+## [2026-06-24] Monitor Run - 10:46
+*A:9 | B:14 | HP:0 | NN:1 | A-ap:1 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 362k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34779 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +6 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 361,000 | 362,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,773 | 34,779 | +6 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ? TIER-? | ? | ? | ✓ | [Brussels Signal Podcast: Episode 1, Class Wars or Culture Wa](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLW9ob3RiaFZNOXc5R2tZWDBFLXdVOVFpZlJHRzRNdUlaQVQyQjFjNmZneHozS21QR1l4UzJ2TzlibzlhT29SNmd5RU1DN29TMVJEY05mQnFDSElxNVJyWUdBSUk1YWdnODBzeldZUTl4alRuQzRLOEFRQjJjV0ZMNnVlZXhSc3NrWEhNby1wQkdnMGRqdGZFTVJGVEdzcE9GTDVQd2lSamY5cnh6Mkp0djhJWDM4UEtE?oc=5) |
+
+---
+
