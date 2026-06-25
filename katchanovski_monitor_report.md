@@ -631,3 +631,29 @@
 
 ---
 
+## [2026-06-25] Monitor Run - 10:39
+*A:8 | B:16 | HP:0 | NN:1 | A-ap:0 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 363k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34785 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +6 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 362,000 | 363,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,779 | 34,785 | +6 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+---
+
