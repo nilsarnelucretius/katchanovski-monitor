@@ -657,3 +657,34 @@
 
 ---
 
+## [2026-06-26] Monitor Run - 10:48
+*A:8 | B:16 | HP:0 | NN:1 | A-ap:0 | B-ap:1 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 365k | 248k (March 31, 2026) | +2,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34792 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +7 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 363,000 | 365,000 | +2,000 | +0.6% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,785 | 34,792 | +7 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+### 📢 New Counterspeech Events (Network B)
+| Type | Node | Tier | Confirmed | Title |
+|------|------|------|-----------|-------|
+| signatory | ? | ?TIER-? | ✓ | [Academics under mounting pressure to join Iranian prote](https://news.google.com/rss/articles/CBMingFBVV95cUxNcXJOMnZGTnZzcDlwenRzVjZUUm44SlI3dUM3cVpQTmRWYkNHTkoxazFJLU1JYVM1bl9MbHJZSDJBeEpIRThlRTlPZi0zVTVxbWp3d0stQXBkWjdUUjJzeFc3YjVDNXY1MGkyUzE0aU9XNDhsMEZ5bUJ4Y2NVVW0ydTk5U20zNFp0TEVuZWp1RDYzd2pqTlRTYjlGc01EUQ?oc=5) |
+
+---
+
