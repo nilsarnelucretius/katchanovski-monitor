@@ -740,3 +740,31 @@
 
 ---
 
+## [2026-06-29] Monitor Run - 12:28
+*A:8 | B:16 | HP:0 | NN:2 | A-ap:0 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 369k | 248k (March 31, 2026) | +2,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34800 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +1 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 367,000 | 369,000 | +2,000 | +0.5% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,799 | 34,800 | +1 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [minister] German Green leader says soldiers can ‘desert’ under AfD defence minister - Brussels Signal
+  https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRlh5QjY4QUFPcmZKbnBTZ1QwX0s5emo2YzkzNmdiZUtrNnB
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+---
+
