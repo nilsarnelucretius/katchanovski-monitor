@@ -1091,3 +1091,39 @@
 
 ---
 
+## [2026-07-12] Monitor Run - 09:48
+*A:6 | B:12 | HP:1 | NN:2 | A-ap:1 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 381k | 248k (March 31, 2026) | +1,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34929 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +26 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 380,000 | 381,000 | +1,000 | +0.3% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,903 | 34,929 | +26 | +0.1% |
+
+### ⚠️ High-Priority Events
+- **[appearances]** Musk takes legal action against German broadcaster ZDF over Belfast riots report - Brussels Signal  *(triggers: )*
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [President] French RN party President Bardella’s use of European Parliament funds under investigation - Brussels Signal
+  https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTk3V2h5c01KSW5OT1g2clBaNXZTdWpja1hrUXRzaW1LM0R
+- [Correctiv] Correctiv’s ‘expulsion masterplan’ claims at AfD Potsdam meeting false, Berlin court says - Brussels Signal
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0VYcGx4aV84S3JNa1JsbDBxb1lMX1JwcnFDdzBPUnNueGQ
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ⚡⚡⚡ TIER-1 MEGA | Musk | principal | ~ | [Musk takes legal action against German broadcaster ZDF over ](https://news.google.com/rss/articles/CBMitgFBVV95cUxOdmttd21fU1FuRUhqY2pSZEw0Vmx3Nnd2WFFTWU1sWVp0TndhLXp5NnEtNTZHV3ZocmZrTVF2OTdKeE9wSDktSHk5QVphNFJTUndTZ3FFalZoSWVjVk1mak9KOHc2WWpoaHcyeERXUlg3MUtUZnM1Snl6dDJ2XzVJQ21FUlhDR3oxS3BuZENLamFXSDIxZzV2WjdjdDJiTkhHeEZRNHphNGw0SmFjRURFOW0xb05Tdw?oc=5) |
+
+---
+
