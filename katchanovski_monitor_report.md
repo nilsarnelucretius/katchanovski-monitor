@@ -1259,3 +1259,29 @@
 
 ---
 
+## [2026-07-18] Monitor Run - 09:21
+*A:5 | B:13 | HP:0 | NN:1 | A-ap:0 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 395k | 248k (March 31, 2026) | +10,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 34958 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +3 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 385,000 | 395,000 | +10,000 | +2.6% |
+| GoFundMe donor count | 364 | 364 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 34,955 | 34,958 | +3 | +0.0% |
+
+### ⚡ Potential New Nodes
+*Emerging actors detected by new-node indicator patterns:*
+- [President] French RN party President Bardella’s use of European Parliament funds under investigation - Brussels Signal
+  https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTk3V2h5c01KSW5OT1g2clBaNXZTdWpja1hrUXRzaW1LM0R
+
+---
+
