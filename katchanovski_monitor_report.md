@@ -2206,3 +2206,23 @@
 
 ---
 
+## [2026-08-27] Monitor Run - 18:48
+*A:4 | B:11 | HP:0 | NN:0 | A-ap:0 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 435k | 248k (March 31, 2026) | +3,000 |
+| A | GoFundMe donor count | 364 | 325+ contributors |  |
+| B | Academic citations (Semantic Scholar) | 2 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 35083 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +6 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 432,000 | 435,000 | +3,000 | +0.7% |
+| Academic citations (Semantic Scholar) | 2 | 2 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 35,077 | 35,083 | +6 | +0.0% |
+
+---
+
