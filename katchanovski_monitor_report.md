@@ -3988,3 +3988,29 @@
 
 ---
 
+## [2026-11-24] Monitor Run - 19:18
+*A:5 | B:15 | HP:0 | NN:0 | A-ap:1 | B-ap:0 | Overlap:0*
+
+### Tracked Metrics
+| Net | Metric | Current | Baseline | Δ |
+|-----|--------|---------|----------|---|
+| A | Springer book access count | 564k | 248k (March 31, 2026) | +2,000 |
+| A | GoFundMe donor count | 365 | 325+ contributors | - |
+| B | Academic citations (Semantic Scholar) | 4 | 1 citation (May 2026 - first academic citation tracked) | - |
+| B | Aslund Bluesky followers (B-network non-X reach) | 35484 | 32k followers (April 1, 2026) - B-network non-X reach proxy | +12 |
+
+### 24h Growth
+| Metric | Previous | Current | Δ | Δ% |
+|--------|----------|---------|---|-----|
+| Springer book access count | 562,000 | 564,000 | +2,000 | +0.4% |
+| GoFundMe donor count | 365 | 365 | +0 | +0.0% |
+| Academic citations (Semantic Scholar) | 4 | 4 | +0 | +0.0% |
+| Aslund Bluesky followers (B-network non-X reach) | 35,472 | 35,484 | +12 | +0.0% |
+
+### 🎙 New Podcast / Joint Appearances
+| Reach tier | Node | Cluster | Confirmed | Title |
+|------------|------|---------|-----------|-------|
+| ⚡ TIER-3 MID | Diesen | G_hybrid_NO | ~ | [Norway's Glenn Diesen resigns and says he will leave as Euro](https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWYtSzI3eGc5YUkyMFZuYW5PSi1XZWZYNnpBRzk0WXJHaVRQRXFpaHBaV2hjUlUtMGxkLXlwYkRvN2lHa3BqWEc3Z0IycjlfcXA2c09YUURUTlF3Vk5VSkhINVo5UUFrNk9PQ3dHeXV3LVVnVTYyeTY1aVhFUDg4Qk5ERjRUU1k3bU1sZW92SXVrSjdBamIwUw?oc=5) |
+
+---
+
